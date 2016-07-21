@@ -1,3 +1,9 @@
+# This kata: http://codekata.com/kata/kata02-karate-chop/
+
+# In my opinion the iterative version is the only relevant one, but the kata02
+# specification includes the creation of different implementations to this,
+# for training purposes
+
 require "test/unit"
 
 def chop(search, array)
