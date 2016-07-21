@@ -5,7 +5,7 @@ def chop(search, array)
   b = array.length - 1
   while true
     c = (a + b) / 2
-    if a > b || b < 0
+    if a > b
       return -1
     elsif array[c] == search
       return c
