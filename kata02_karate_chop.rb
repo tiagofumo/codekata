@@ -2,10 +2,10 @@ require "test/unit"
 
 def chop(search, array)
   a = 0
-  b = max = array.length - 1
+  b = array.length - 1
   while true
     c = (a + b) / 2
-    if a > max || b < 0 || a > b
+    if a > b || b < 0
       return -1
     elsif array[c] == search
       return c
